@@ -12,7 +12,7 @@
   "dependencies": {
     "config": "^1.29.2",
     "express": "^4.16.4",
-    "lodash": "^4.17.4",
+    "lodash": "^4.17.13",
     "mysql": "^2.16.0",
     "mysql2": "^1.6.5",
     "sequelize": "^4.43.1",
