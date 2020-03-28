@@ -1,0 +1,21 @@
+{
+    "recreateDB": false,
+    "router_root": "/staging/api",
+    "port": "8080",
+    "runCron": false,
+    "db": {
+        "dbname": "ambition",
+        "username": "root",
+        "password": "123456",
+        "options": {
+            "host": "localhost",
+            "port": 3306,
+            "timezone": "+07:00",
+            "dialect": "mysql"
+        }
+    },
+    "PRIVATE_KEY": "AUUdziRtFU",
+    "TOKEN_KEY": "x-q-token",
+    "SHA1_KEY": "SDlmfa90asnkfnaA34laskNSDL38nldsfkh2l234",
+    "TOKEN_EXPIRESIN": "1d"
+}

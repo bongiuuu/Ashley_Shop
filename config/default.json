@@ -1,0 +1,29 @@
+{
+    "app": "GoCar-API",
+    "apiKey": "MWVlOWE3OTgtMzcwZi00ZGJkLTk5NjktYzA5Nzk1MDk5NGQ0",
+    "email": {
+        "port": 465,
+        "host": "smtp.gmail.com",
+        "emailName": "",
+        "emailAddress": "",
+        "password": ""
+    },
+    "urlLockUnlock": "http://gocar.gpsina.com/lockUnlock",
+    "SMS": {
+        "OTPGenerate": "http://etracker.cc/MobileOTPAPI/OTPGenerateAPI.aspx?",
+        "OTPVerify": "http://etracker.cc/MobileOTPAPI/OTPVerifyAPI.aspx?",
+        "SENDSms": "http://www.etracker.cc/bulksms/mesapi.aspx?",
+        "user": "gocarotp",
+        "pass": "oQo(B3FV",
+        "from": "gocar",
+        "text": "Here is your pincode <OTPCode> thanks!",
+        "servID": "MES01",
+        "type": 0,
+        "gateway": "plivo",
+        "resetSms": "677340,rst"
+    },
+    "GCP": {
+        "keyFile": "./config/gocarv2-firebase.json",
+        "databaseURL": "https://gocarv2.firebaseio.com"
+    }
+}
